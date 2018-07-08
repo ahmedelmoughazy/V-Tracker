@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="358px"
+        android:layout_height="635px"
+        android:background="@drawable/logo2"
+        android:layout_gravity="center"
+        android:fitsSystemWindows="true"/>
+
+</FrameLayout>
